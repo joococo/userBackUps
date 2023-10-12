@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmActivity">
+
+
+    <TextView
+        android:id="@+id/food_alarm_iv"
+        android:layout_width="400dp"
+        android:layout_height="270dp"
+        android:background="@drawable/alarm_img"
+        android:gravity="center"
+        android:fontFamily="@font/scoredream_medium"
+        android:text="주문하신 음식이 준비되었습니다.\n픽업대에서 수령하시기 바랍니다."
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+    android:id="@+id/button_alarm"
+    android:layout_width="180dp"
+    android:layout_height="65dp"
+    android:layout_marginTop="190dp"
+    android:background="@drawable/alarm_btn_img"
+        android:fontFamily="@font/scoredream_medium"
+    android:text="수령완료"
+    android:textSize="25dp"
+    android:textColor="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@id/food_alarm_iv" />
+
+</android.support.constraint.ConstraintLayout>

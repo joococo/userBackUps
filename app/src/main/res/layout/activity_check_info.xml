@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".CheckInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:text="X"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/orderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="나의 주문 정보"
+        android:fontFamily="@font/scoredream_medium"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <!--QR코드 -->
+    <ImageView
+        android:id="@+id/qrcodeImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/scoredream_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오주원" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="주문 메뉴"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="주문 시간"
+                android:fontFamily="@font/scoredream_medium"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="주문 번호"
+                android:fontFamily="@font/scoredream_medium"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="좌석 번호"
+                android:fontFamily="@font/scoredream_medium"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--데이터 베이스에서 받아오는 주문 메뉴-->
+            <!--
+            <TextView
+                android:id="@+id/orderMenu"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+-->
+            <!--데이터 베이스에서 받아오는 주문 시간-->
+            <TextView
+                android:id="@+id/orderTime"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--데이터 베이스에서 받아오는 주문 번호-->
+            <TextView
+                android:id="@+id/orderID"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--데이터 베이스에서 받아오는 좌석 번호-->
+            <TextView
+                android:id="@+id/seatID"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scoredream_medium"
+        android:text="캡쳐 이미지로 결제 가능합니다."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="vertical"></LinearLayout>
+
+
+
+</LinearLayout>

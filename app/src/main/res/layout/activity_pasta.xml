@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasta">
+
+    <TextView
+        android:id="@+id/text_pasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1. 파스타"
+        android:fontFamily="@font/blackhansansregular"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/aliolio"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_pasta"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/tomato"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_pasta"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/truffle"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliolio"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/daepae"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tomato"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/porkimchi"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/truffle"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/rose"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daepae"
+        app:srcCompat="@drawable/rectangle14"/>
+
+    <ImageView
+        android:id="@+id/image_aliolio"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/aliolio"
+        app:layout_constraintEnd_toEndOf="@+id/aliolio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/aliolio"
+        app:layout_constraintTop_toTopOf="@+id/aliolio" />
+
+    <TextView
+        android:id="@+id/text_aliolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="우삼겹알리오올리오"
+        android:fontFamily="@font/scoredream_bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/aliolio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/aliolio"
+        app:layout_constraintTop_toBottomOf="@+id/image_aliolio" />
+
+    <TextView
+        android:id="@+id/price_aliolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="6,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/aliolio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/aliolio"
+        app:layout_constraintTop_toBottomOf="@+id/text_aliolio" />
+
+    <ImageView
+        android:id="@+id/image_tomato"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/tomato"
+        app:layout_constraintEnd_toEndOf="@+id/tomato"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tomato"
+        app:layout_constraintTop_toTopOf="@+id/tomato" />
+
+    <TextView
+        android:id="@+id/text_tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="클래식토마토파스타"
+        android:fontFamily="@font/scoredream_bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/tomato"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tomato"
+        app:layout_constraintTop_toBottomOf="@+id/image_tomato" />
+
+    <TextView
+        android:id="@+id/price_tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="6,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/tomato"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tomato"
+        app:layout_constraintTop_toBottomOf="@+id/text_tomato" />
+
+    <ImageView
+        android:id="@+id/image_truffle"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/truffle"
+        app:layout_constraintEnd_toEndOf="@+id/truffle"
+        app:layout_constraintStart_toStartOf="@+id/truffle"
+        app:layout_constraintTop_toTopOf="@+id/truffle" />
+
+    <TextView
+        android:id="@+id/text_truffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="트러플버섯크림파스타"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/truffle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/truffle"
+        app:layout_constraintTop_toBottomOf="@+id/image_truffle" />
+
+    <TextView
+        android:id="@+id/price_truffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="6,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/truffle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/truffle"
+        app:layout_constraintTop_toBottomOf="@+id/text_truffle" />
+
+    <ImageView
+        android:id="@+id/image_daepae"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/daepae"
+        app:layout_constraintEnd_toEndOf="@+id/daepae"
+        app:layout_constraintStart_toStartOf="@+id/daepae"
+        app:layout_constraintTop_toTopOf="@+id/daepae" />
+
+    <TextView
+        android:id="@+id/text_daepae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="대패삼겹크림파스타"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/daepae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/daepae"
+        app:layout_constraintTop_toBottomOf="@+id/image_daepae" />
+
+    <TextView
+        android:id="@+id/price_daepae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="7,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/daepae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/daepae"
+        app:layout_constraintTop_toBottomOf="@+id/text_daepae" />
+
+    <ImageView
+        android:id="@+id/image_porkimchi"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/porkimchi"
+        app:layout_constraintEnd_toEndOf="@+id/porkimchi"
+        app:layout_constraintStart_toStartOf="@+id/porkimchi"
+        app:layout_constraintTop_toTopOf="@+id/porkimchi" />
+
+    <TextView
+        android:id="@+id/text_porkimchi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="4분돼지김치파스타"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/porkimchi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/porkimchi"
+        app:layout_constraintTop_toBottomOf="@+id/image_porkimchi" />
+
+    <TextView
+        android:id="@+id/price_porkimchi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="7,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/porkimchi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/porkimchi"
+        app:layout_constraintTop_toBottomOf="@+id/text_porkimchi" />
+
+    <ImageView
+        android:id="@+id/image_rose"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/rose"
+        app:layout_constraintEnd_toEndOf="@+id/rose"
+        app:layout_constraintStart_toStartOf="@+id/rose"
+        app:layout_constraintTop_toTopOf="@+id/rose" />
+
+    <TextView
+        android:id="@+id/text_rose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="매콤로제파스타"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/rose"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/rose"
+        app:layout_constraintTop_toBottomOf="@+id/image_rose" />
+
+    <TextView
+        android:id="@+id/price_rose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="7,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/rose"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/rose"
+        app:layout_constraintTop_toBottomOf="@+id/text_rose" />
+
+    <Button
+        android:id="@+id/gofront"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gofront"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck, ,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/basket"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/basket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+</android.support.constraint.ConstraintLayout>

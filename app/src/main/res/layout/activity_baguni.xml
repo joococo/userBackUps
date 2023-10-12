@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_baguni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/scoredream_medium"
+        android:text="장바구니"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="336dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/coding_dog"
+        android:fontFamily="@font/scoredream_bold"
+        android:text="주문하기"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/orderMenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/price_menu1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_baguni" />
+
+    <TextView
+        android:id="@+id/price_menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toEndOf="@+id/orderMenu1"
+        app:layout_constraintTop_toBottomOf="@+id/text_baguni" />
+
+    <TextView
+        android:id="@+id/restaurant1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toEndOf="@+id/price_menu1"
+        app:layout_constraintTop_toBottomOf="@+id/text_baguni" />
+
+    <TextView
+        android:id="@+id/orderMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderMenu1" />
+
+    <TextView
+        android:id="@+id/price_menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toEndOf="@+id/orderMenu2"
+        app:layout_constraintTop_toBottomOf="@+id/price_menu1" />
+    <TextView
+        android:id="@+id/restaurant2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toEndOf="@+id/price_menu2"
+        app:layout_constraintTop_toBottomOf="@+id/restaurant1" />
+    <TextView
+        android:id="@+id/orderMenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderMenu2" />
+
+    <TextView
+        android:id="@+id/price_menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toEndOf="@+id/orderMenu3"
+        app:layout_constraintTop_toBottomOf="@+id/price_menu2" />
+
+    <TextView
+        android:id="@+id/restaurant3"
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toEndOf="@+id/price_menu3"
+        app:layout_constraintTop_toBottomOf="@+id/restaurant2" />
+</android.support.constraint.ConstraintLayout>

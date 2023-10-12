@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ttok">
+
+    <TextView
+        android:id="@+id/text_ttok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="3. 마성떡볶이"
+        android:fontFamily="@font/blackhansansregular"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/masungttok"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ttok"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/chalsundae"
+        android:layout_width="170dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ttok"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/busan"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masungttok"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/modum"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chalsundae"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/kimbob"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busan"
+        app:srcCompat="@drawable/rectangle14" />
+
+    <ImageView
+        android:id="@+id/chickenmayo"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modum"
+        app:srcCompat="@drawable/rectangle14"/>
+
+    <ImageView
+        android:id="@+id/image_masungttok"
+        android:layout_width="144dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ttokboki"
+        app:layout_constraintEnd_toEndOf="@+id/masungttok"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/masungttok"
+        app:layout_constraintTop_toTopOf="@+id/masungttok" />
+
+    <TextView
+        android:id="@+id/text_masungttok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마성떡볶이"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/masungttok"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/masungttok"
+        app:layout_constraintTop_toBottomOf="@+id/image_masungttok" />
+
+    <TextView
+        android:id="@+id/price_masungttok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="3,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/masungttok"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/masungttok"
+        app:layout_constraintTop_toBottomOf="@+id/image_masungttok" />
+
+    <ImageView
+        android:id="@+id/image_chalsundae"
+        android:layout_width="144dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/chalsundae"
+        app:layout_constraintEnd_toEndOf="@+id/chalsundae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/chalsundae"
+        app:layout_constraintTop_toTopOf="@+id/chalsundae" />
+
+    <TextView
+        android:id="@+id/text_chalsundae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="찰순대"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/chalsundae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/chalsundae"
+        app:layout_constraintTop_toBottomOf="@+id/image_chalsundae" />
+
+    <TextView
+        android:id="@+id/price_chalsundae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="3,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/chalsundae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/chalsundae"
+        app:layout_constraintTop_toBottomOf="@+id/text_chalsundae" />
+
+    <ImageView
+        android:id="@+id/image_busan"
+        android:layout_width="152dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/busan"
+        app:layout_constraintEnd_toEndOf="@+id/busan"
+        app:layout_constraintStart_toStartOf="@+id/busan"
+        app:layout_constraintTop_toTopOf="@+id/busan" />
+
+    <TextView
+        android:id="@+id/text_busan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="부산어묵"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/busan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/busan"
+        app:layout_constraintTop_toBottomOf="@+id/image_busan" />
+
+    <TextView
+        android:id="@+id/price_busan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="2,000원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/busan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/busan"
+        app:layout_constraintTop_toBottomOf="@+id/text_busan" />
+
+    <ImageView
+        android:id="@+id/image_modum"
+        android:layout_width="152dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/modum"
+        app:layout_constraintEnd_toEndOf="@+id/modum"
+        app:layout_constraintStart_toStartOf="@+id/modum"
+        app:layout_constraintTop_toTopOf="@+id/modum" />
+
+    <TextView
+        android:id="@+id/text_modum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="모둠튀김"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/modum"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/modum"
+        app:layout_constraintTop_toBottomOf="@+id/image_modum" />
+
+    <TextView
+        android:id="@+id/price_modum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="6,500원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/modum"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/modum"
+        app:layout_constraintTop_toBottomOf="@+id/text_modum" />
+
+    <ImageView
+        android:id="@+id/image_kimbob"
+        android:layout_width="151dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/kimbob"
+        app:layout_constraintEnd_toEndOf="@+id/kimbob"
+        app:layout_constraintStart_toStartOf="@+id/kimbob"
+        app:layout_constraintTop_toTopOf="@+id/kimbob" />
+
+    <TextView
+        android:id="@+id/text_kimbob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="마성김밥"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/kimbob"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/kimbob"
+        app:layout_constraintTop_toBottomOf="@+id/image_kimbob" />
+
+    <TextView
+        android:id="@+id/price_kimbob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="3,000원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/kimbob"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/kimbob"
+        app:layout_constraintTop_toBottomOf="@+id/text_kimbob" />
+
+    <ImageView
+        android:id="@+id/image_chickenmayo"
+        android:layout_width="151dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/chickenmayo"
+        app:layout_constraintEnd_toEndOf="@+id/chickenmayo"
+        app:layout_constraintStart_toStartOf="@+id/chickenmayo"
+        app:layout_constraintTop_toTopOf="@+id/chickenmayo" />
+
+    <TextView
+        android:id="@+id/text_chickenmayo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="치킨마요덮밥"
+        android:fontFamily="@font/scoredream_bold"
+        app:layout_constraintEnd_toEndOf="@+id/chickenmayo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/chickenmayo"
+        app:layout_constraintTop_toBottomOf="@+id/image_chickenmayo" />
+
+    <TextView
+        android:id="@+id/price_chickenmayo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="5,000원"
+        android:fontFamily="@font/scoredream_medium"
+        app:layout_constraintEnd_toEndOf="@+id/chickenmayo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/chickenmayo"
+        app:layout_constraintTop_toBottomOf="@+id/text_chickenmayo" />
+
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/goback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/gofront"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gofront"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/basket"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/basket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</android.support.constraint.ConstraintLayout>
